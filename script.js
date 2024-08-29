@@ -4,7 +4,7 @@ const minutesEl = document.getElementById("minutes")
 const secondsEl = document.getElementById("seconds")
 
 function countDown(){
-    const eventTime = new Date("1 january 2023 12:00:00");
+    const eventTime = new Date("31 December 2024 12:00:00");
     const currentTime = new Date().getTime();
     const timeDiff = (eventTime - currentTime);
     
